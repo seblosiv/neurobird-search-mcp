@@ -1,0 +1,25 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "com.neurobird/search",
+  "description": "Web search for AI agents with page passages already extracted, plus clean markdown extraction of any URL. Grounded answers carry quotes verified against their source.",
+  "version": "1.0.0",
+  "websiteUrl": "https://search.neurobird.com",
+  "repository": {
+    "url": "https://github.com/seblosiv/neurobird-search-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://search.neurobird.com/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer <your Neurobird API key>. Create one free with POST https://search.neurobird.com/keys",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
