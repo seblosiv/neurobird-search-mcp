@@ -1,5 +1,12 @@
 # Neurobird Search MCP server
 
+[![MCP Registry](https://img.shields.io/badge/MCP%20Registry-com.neurobird%2Fsearch-0b6e7f)](https://registry.modelcontextprotocol.io/v0/servers?search=neurobird)
+[![Glama score](https://glama.ai/mcp/servers/seblosiv/neurobird-search-mcp/badges/score.svg)](https://glama.ai/mcp/servers/seblosiv/neurobird-search-mcp)
+[![Smithery](https://img.shields.io/badge/Smithery-seblosiv%2Fneurobird--search-6b46c1)](https://smithery.ai/server/seblosiv/neurobird-search)
+[![MPPscan](https://img.shields.io/badge/MPPscan-listed-1f6f5c)](https://mppscan.com/server/4bf664e29dcf63d2b6f633ccb74ff9151ee4fea0e6c8465544ada55f5cc958fd)
+[![Transport](https://img.shields.io/badge/transport-streamable%20HTTP-555)](https://modelcontextprotocol.io/specification/2025-06-18/basic/transports)
+[![License](https://img.shields.io/github/license/seblosiv/neurobird-search-mcp)](LICENSE)
+
 A hosted [Model Context Protocol](https://modelcontextprotocol.io) server that gives an
 AI agent web search with the page content already extracted, plus clean markdown
 extraction of any URL.
